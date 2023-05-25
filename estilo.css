@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --verde_welldone: rgb(183, 240, 221);
+    --preto_botao: #272525;
+    --preto_bg: rgb(20, 19, 21);
+}
+
+
+*{
+    background-color: var(--preto_bg);
+}
+
+header .container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+    font-size: 18px;
+    padding: 10px 5px 10px 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.header__menu-list__item a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+  }
+
+  .header__menu-list__item a {
+    position: relative;
+    padding: 5px 0;
+  }
+  
+  .header__menu-list__item a:hover::before {
+    width: 100%;
+    height: 2px;
+  }
+
+  .header__menu-list__item a:before {
+    height: 2px;
+  }
+
+  .login_button:hover{
+    opacity: 0.9;
+}
+
+header .login_button{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--preto_botao);
+    margin-left: 11%;
+    border: none;
+    padding: 5px 25px 5px 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header_menu_list {
+    list-style-type: none;
+    gap: 15%;
+    display: flex;
+}
+
+.nome_empresa a{
+    color: rgb(183, 240, 221);
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+.content{
+    width: 100%;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+    font-size: 400%;
+    
+}
+
+.texto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 150%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.img{
+    margin-top: 3%;
+    width: 60%;
+    text-align: center;
+}
+
+
+
+
+
+@media(min-width: 769px) and (max-width:1279px){
+
+    .header_menu_list{
+        display: flex;
+    }
+
+    .header__menu-list__item a:before {
+        height: 2px;
+      }
+
+    .header_menu_list{
+        gap: 15%;
+    }
+}
+
+
+
+
+@media(min-width: 503.21px) and (max-width:768px){
+
+    .header_menu_list{
+        display:flex;
+    }
+
+    .header__menu-list__item a:before {
+        height: 2px;
+      }
+
+    .header_menu_list{
+        gap: 10%;
+    }
+}
+
+
+
+
+
+@media(min-width: 100px) and (max-width:503.20px){
+    
+    .header_menu_list{
+        display:block;
+    }
+
+    .header__menu-list__item a:before {
+        height: 2px;
+        margin-bottom: 5px;
+    }
+
+    .header_menu_list{
+        gap: 10%;
+    }
+}
