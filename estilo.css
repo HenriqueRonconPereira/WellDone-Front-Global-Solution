@@ -98,8 +98,13 @@ img{
     font-family: 'Poppins', sans-serif;
     color: white;
     width: 100%;
-    font-size: 400%;
+    font-size: 370%;
     
+}
+
+.titulo:hover{
+    color: var(--verde_welldone);
+    transition: 0.5s;
 }
 
 .texto{
@@ -115,6 +120,13 @@ img{
 .img{
     margin-top: 3%;
     width: 60%;
+    text-align: center;
+}
+
+.video{
+    margin-top: 3%;
+    width: 60%;
+    height: 70vh;   
     text-align: center;
 }
 
