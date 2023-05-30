@@ -133,9 +133,14 @@ img{
 .titulo-home-esquerda{
     margin-top: 1%;
     font-family: 'Poppins', sans-serif;
-    color: white;  
+    color: var(--verde_welldone);
     font-size: 340%;
     width: fit-content;
+}
+
+.titulo-home-esquerda:hover{
+    font-size: 346%;
+    transition: 0.4s ease-in-out;
 }
 
 .button{
@@ -146,6 +151,7 @@ img{
     padding: 5px 5px 5px 5px;
     background-color: var(--verde_welldone);
     margin-top: 2%;
+    font-weight: 500;
 }
 
 .img-esquerda{
@@ -172,9 +178,14 @@ img{
 .titulo-home{
     margin-top: 1%;
     font-family: 'Poppins', sans-serif;
-    color: white;  
+    color: var(--verde_welldone);
     font-size: 340%;
     width: fit-content;
+}
+
+.titulo-home:hover{
+    font-size: 346%;
+    transition: 0.4s ease-in-out;
 }
 
 .texto-content{
