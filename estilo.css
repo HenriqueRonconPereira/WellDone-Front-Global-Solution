@@ -294,13 +294,14 @@ footer .container{
 }
 
 .img_page_header{
-    width: 30%;
+    width: 27%;
     margin-left: auto;
-    margin-right: 15%;
+    margin-right: 17%;
+    margin-top: 2%;
 }
 
 .img_page_header:hover{
-    width: 32%;
+    width: 29%;
     transition: 0.4s ease-in-out;
 }
 
@@ -314,18 +315,56 @@ footer .container{
 }
 
 .line_page_header{
-    
+    width: 70%;
+    margin-top: 5%;
+    border-bottom: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titulo-introducao:hover{
     font-size: 210%;
+    color: var(--verde_welldone);
     transition: 0.4s ease-in-out;
 }
 
+.ia_content{
+    width: 100%;
+    display: block;
+}
 
+.titulo_ia_content{
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 200%;
+    width: 100%;
+    text-align: center;
+}
+.titulo_ia_content:hover{
+    color: var(--verde_welldone);
+    transition: 0.4s ease-in-out;
+    font-size: 202%;
+}
 
+.texto_ia_content{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.ia_content_textoh3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 130%;
+    margin-top: 3%;
+    text-align: justify;
+}
 
+.ia_page_main{
+    text-align: center;
+}
 
 
 
