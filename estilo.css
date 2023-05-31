@@ -369,10 +369,102 @@ footer .container{
 
 
 
+.content_cult_eficiente{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img_cult{
+    width: 45%;
+    height: 100%;
+}
+
+.content_cult{
+    display: flex;
+    margin-top: 3%;
+}
+
+.container_cult{
+    display: block;
+    margin-left: 3%;
+}
+
+.titulo_cult{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 200%;
+    width: 100%;
+}
+
+.titulo_cult:hover{
+    color: var(--verde_welldone);
+    font-size: 205%;
+    transition: 0.4s;
+}
+
+.line_cult{
+    content: '';
+    margin-top: 4%;
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.texto_cult{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+}
 
 
 
 
+
+
+
+.content_cult_eficiente_esq{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img_cult_esq{
+    width: 100%;
+    height: 100%;
+}
+
+.content_cult_esq{
+    display: block;
+    margin-top: 3%;
+}
+
+.container_cult_esq{
+    display: block;
+}
+
+.titulo_cult_esq{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 200%;
+    width: 100%;
+}
+
+.titulo_cult_esq:hover{
+    color: var(--verde_welldone);
+    font-size: 205%;
+    transition: 0.4s;
+}
+
+.texto_cult_esq{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+    margin-bottom: 3%;
+}
 
 
 
