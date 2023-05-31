@@ -473,29 +473,53 @@ footer .container{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
+    
   }
 
-  form {
-    width: 400px;
+form {
+    width: 35%;
+    margin-top: 7%;
     padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 4px;
+    background-color: var(--preto_botao);
+    border-radius: 4px; 
   }
 
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+    margin: 0.9% 0;
+    /*display: inline-block;*/
     border: 1px solid #ccc;
+    color: white;
+    font-family: 'Poppins', sans-serif;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
   }
+
+label{
+    background-color: var(--preto_botao);
+    font-family: 'Poppins', sans-serif;
+  }
+
+.centralizar_label{
+    background-color: var(--preto_botao);
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    font-weight: 500;
+}
+.center{
+    width: 100%;
+    text-align: center;
+    background-color: var(--preto_botao);
+}
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
+    background-color: var(--verde_welldone);
+    color: var(--preto_bg);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -504,7 +528,7 @@ input[type=submit] {
   }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #9dc89f;
   }
 
 
