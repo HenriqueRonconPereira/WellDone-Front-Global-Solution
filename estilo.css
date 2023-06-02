@@ -167,7 +167,7 @@ img{
 .img{
     width: 45%;
     margin-left: auto;
-    margin-right: 10%;
+    margin-right: auto;
 }
 
 .content-home{
@@ -590,7 +590,8 @@ input[type=submit]:hover {
 
 
 
-@media(min-width: 550px) and (max-width:768px){
+
+@media(min-width: 595px) and (max-width:768px){
 
     .header_menu_list{
         display:flex;
@@ -603,13 +604,22 @@ input[type=submit]:hover {
     .header_menu_list{
         gap: 10%;
     }
+
+    .titulo-home{
+        font-size: 200%;
+    }
+
+    .introducao{
+        display: block;
+        text-align: center;
+    }
 }
 
 
 
 
 
-@media(min-width: 100px) and (max-width:549px){
+@media(min-width: 100px) and (max-width:594px){
     
     .header_menu_list{
         display:block;
