@@ -118,11 +118,12 @@ img{
 .texto-content-esquerda{
     margin-right: 10%;
     width: 30%;
-    text-align: justify;
+
 }
 
 .texto-home-esquerda{
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     font-weight: 300;
     color: white;
     margin-top: 3%;
@@ -144,6 +145,17 @@ img{
 }
 
 .button{
+    font-family: 'Poppins', sans-serif;
+    color: var(--preto_bg);  
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 5px 5px 5px 5px;
+    background-color: var(--verde_welldone);
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.button-rigth{
     font-family: 'Poppins', sans-serif;
     color: var(--preto_bg);  
     border: 1px solid white;
@@ -189,9 +201,7 @@ img{
 }
 
 .quebra-linha{
-
     display: inline-block;
-
 }
 
 .titulo-home:hover{
@@ -665,7 +675,7 @@ input[type=submit]:hover {
     }
 
     .texto-content-esquerda{
-        width: 90%;
+        width: 91%;
         margin-bottom: 6%;
         text-align: center;
     }
@@ -692,6 +702,13 @@ input[type=submit]:hover {
         width: 45%;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .button{
+        margin-left: 13%;
+    }
+    .button-rigth{
+        margin-right: 9%;
     }
 }
 
