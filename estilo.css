@@ -159,7 +159,12 @@ img{
     margin-right: auto;
     margin-left: 10%;
 }
-
+.img-esquerda-responsive{
+    display: none;
+    width: 45%;
+    margin-right: auto;
+    margin-left: 10%;
+}
 
 
 
@@ -181,6 +186,12 @@ img{
     color: var(--verde_welldone);
     font-size: 340%;
     width: fit-content;
+}
+
+.quebra-linha{
+
+    display: inline-block;
+
 }
 
 .titulo-home:hover{
@@ -605,13 +616,82 @@ input[type=submit]:hover {
         gap: 10%;
     }
 
+
+
+
+
+
     .titulo-home{
+        width: 100%;
+        text-align: center;
         font-size: 200%;
+    }
+
+    .titulo-home:hover{
+        font-size: 208%;
+        transition: 0.4s;
+    }
+
+    .texto-content{
+        width: 90%;
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .texto-home{
+        margin-right: 10%;
+        margin-bottom: 3%;
+        text-align: justify;
     }
 
     .introducao{
         display: block;
         text-align: center;
+    }
+
+    
+
+
+    .titulo-home-esquerda{
+        width: 100%;
+        text-align: center;
+        font-size: 200%;
+        margin-left: 10%;
+    }
+
+    .titulo-home-esquerda:hover{
+        font-size: 208%;
+        transition: 0.4s;
+    }
+
+    .texto-content-esquerda{
+        width: 90%;
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .texto-home-esquerda{
+        margin-left: 10%;
+        margin-bottom: 3%;
+        text-align: justify;
+    }
+
+    .conteudo-esquerda{
+        display: block;
+        text-align: center;
+    }
+
+    .img-esquerda{
+        display: none;
+        width: 45%;
+        margin-right: auto;
+        margin-left: 10%;
+    }
+    .img-esquerda-responsive{
+        display: block;
+        width: 45%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
