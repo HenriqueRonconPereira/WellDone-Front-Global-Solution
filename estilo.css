@@ -590,7 +590,17 @@ input[type=submit]:hover {
 
 
 
+@media(min-width: 946px) and (max-width: 1100px){
+    
+    .content_cult{
+        display: block;
+    }
 
+    .img_cult{
+        text-align: center;
+        width: 100%;
+    }
+}
 
 
 @media(min-width: 769px) and (max-width:1279px){
@@ -605,6 +615,19 @@ input[type=submit]:hover {
 
     .header_menu_list{
         gap: 15%;
+    }
+
+    .content_cult{
+        display: block;
+    }
+
+    .img_cult{
+        text-align: center;
+        width: 100%;
+    }
+
+    .titulo{
+        font-size: 300%;
     }
 }
 
@@ -709,6 +732,25 @@ input[type=submit]:hover {
     }
     .button-rigth{
         margin-right: 9%;
+    }
+
+
+
+
+    .content_cult{
+        display: block;
+    }
+
+    .img_cult{
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+
+    .titulo{
+        font-size: 200%;
     }
 }
 
@@ -837,5 +879,52 @@ input[type=submit]:hover {
 
     .video{
         height: 50vh;
+    }
+
+
+
+
+
+
+    .ia_content_textoh3{
+        font-size: 100%;
+    }
+
+    .titulo_ia_content {
+        font-size: 160%;
+    }
+
+    .titulo-introducao-ai{
+        font-size: 100%;
+    }
+
+
+
+
+    .content_cult{
+        display: block;
+    }
+
+    .img_cult{
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+    .texto_cult{
+        font-size: 100%;
+    }
+
+    .texto_cult_esq{
+        font-size: 100%;
+    }
+
+    .titulo_cult{
+        font-size: 150%;
+    }
+
+    .titulo_cult_esq{
+        font-size: 150%;
     }
 }
