@@ -822,4 +822,20 @@ input[type=submit]:hover {
     .developers{
         font-size: 100%;
     }
+
+
+
+
+
+    .texto{
+        font-size: 100%;
+    }
+
+    .titulo{
+        font-size: 160%;
+    }
+
+    .video{
+        height: 50vh;
+    }
 }
