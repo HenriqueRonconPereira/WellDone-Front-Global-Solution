@@ -730,4 +730,96 @@ input[type=submit]:hover {
     .header_menu_list{
         gap: 10%;
     }
+
+
+
+
+
+
+    
+    .titulo-home{
+        width: 100%;
+        text-align: center;
+        font-size: 160%;
+    }
+
+    .titulo-home:hover{
+        font-size: 170%;
+        transition: 0.4s;
+    }
+
+    .texto-content{
+        width: 90%;
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .texto-home{
+        margin-right: 10%;
+        margin-bottom: 3%;
+        text-align: justify;
+        font-size: 100%;
+    }
+
+    .introducao{
+        display: block;
+        text-align: center;
+    }
+
+    
+
+
+    .titulo-home-esquerda{
+        width: 100%;
+        text-align: center;
+        font-size: 160%;
+        margin-left: 10%;
+    }
+
+    .titulo-home-esquerda:hover{
+        font-size: 170%;
+        transition: 0.4s;
+    }
+
+    .texto-content-esquerda{
+        width: 91%;
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .texto-home-esquerda{
+        margin-left: 10%;
+        margin-bottom: 3%;
+        text-align: justify;
+        font-size: 100%;
+    }
+
+    .conteudo-esquerda{
+        display: block;
+        text-align: center;
+    }
+
+    .img-esquerda{
+        display: none;
+        width: 45%;
+        margin-right: auto;
+        margin-left: 10%;
+    }
+    .img-esquerda-responsive{
+        display: block;
+        width: 45%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .button{
+        margin-left: 13%;
+    }
+    .button-rigth{
+        margin-right: 9%;
+    }
+
+    .developers{
+        font-size: 100%;
+    }
 }
