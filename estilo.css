@@ -600,6 +600,13 @@ input[type=submit]:hover {
         text-align: center;
         width: 100%;
     }
+
+    form{
+        width: 38%
+    }
+
+
+
 }
 
 
@@ -627,12 +634,21 @@ input[type=submit]:hover {
     }
 
     .titulo{
-        font-size: 300%;
+        font-size: 290%;
     }
+
+
+
+
+
 }
 
 
-
+@media(min-width: 769px) and (max-width:955px){
+    form{
+        width: 50%;
+    }
+}
 
 
 @media(min-width: 595px) and (max-width:768px){
@@ -751,6 +767,12 @@ input[type=submit]:hover {
 
     .titulo{
         font-size: 200%;
+    }
+
+
+
+    form{
+        width: 60%
     }
 }
 
@@ -926,5 +948,23 @@ input[type=submit]:hover {
 
     .titulo_cult_esq{
         font-size: 150%;
+    }
+
+
+
+    form{
+        width: 60%;
+    }
+
+    input[type=text]{
+        height: 5vh;
+    }
+
+    .form_style{
+        height: 5vh;        
+    }
+
+    #mensagem{
+        height: 10vh;
     }
 }
